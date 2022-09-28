@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Noto Sans KR", "맑은고딕";
+  font-size: 14px;
+  line-height: 1.45;
+  color: black;
+}
+
+.header_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  width: 1092px;
+  margin: auto;
+}
+
+.header_main {
+}
+
+header h1 {
+  float: left;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+header h1 a {
+  display: block;
+  width: 163px;
+  height: 21px;
+  background: url("../img/logo.png") no-repeat;
+  text-indent: -9999px;
+}
+
+.trigger {
+  display: none;
+}
+
+.trigger .icon_bar {
+}
+
+.gnb {
+  border: 1px solid red;
+}
+
+.navbar {
+}
+
+ul.navbar_gnb {
+  margin-left: 163px;
+  text-align: center;
+}
+
+.navbar_gnb > li {
+  display: inline-block;
+}
+
+.navbar_gnb > li > a {
+  display: block;
+  line-height: 60px;
+  padding: 0 30px 0 15px;
+  color: black;
+  font-size: 16px;
+}
